@@ -9,10 +9,10 @@ export default function () {
             BtnLinkText: "To the Repo",
             Disc: " The Classic, React Style, to get results please open console :)",
         }, {
-            Title: "Present Flags",
-            Link: "https://github.com/ieUlysses/present-flags",
+            Title: "REST C",
+            Link: "https://github.com/ieUlysses/Rest-Countries-revisited",
             BtnLinkText: "To the Repo",
-            Disc: "A simple app in theory, but buggy. cant quite reach certiain values",
+            Disc: "REST Countries....Revisited",
         },
         {
             Title: "Final Project",
