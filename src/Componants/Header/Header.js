@@ -1,11 +1,12 @@
 import React, { useContext } from "react"
 
-import ToggleButton from "../ToggleButton/ToggleButton"
+
 
 import "../../App.css"
 import "./Header.css"
 
 import { Context } from "../../Context/Context";
+import ToggleButton from "../ToggleButton/ToggleButton"
 
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap"
 export default function () {
@@ -72,65 +73,3 @@ export default function () {
 
 
 
-
-
-/* //attempt # 1 rejected because not sure od how to impliment smooth styl;ing in this format
-
-import React, { useContext } from "react";
-import { Context } from "../../Context/Context";
-import ToggleButton from "../ToggleButton/ToggleButton";
-import { LinkContainer } from "react-router-bootstrap"
-import { Navbar, Container, Nav } from "react-bootstrap"
-import IDev from "../../Media/IDev.svg"
-import "../../App.css"
-
-export default function () {
-    const [context, setContext] = useContext(Context);
-    return (
-
-        <>
-            <Navbar bg="primary" variant="dark">
-                <Container>
-
-                    <Navbar.Brand href="#home">
-                        <img
-                            alt="Logo"
-                            src={IDev}
-                            width="80"
-                            height="75"
-                            className="d-inline-block align-center"
-                        />{' '}
-                        By James Conway
-                    </Navbar.Brand>
-
-                    <Nav className="justify-content-end ">
-
-                        <LinkContainer to="/">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                        </LinkContainer>
-
-                        <LinkContainer to="/projects">
-                            <Nav.Link href="#link">Projects</Nav.Link>
-                        </LinkContainer>
-
-                        <LinkContainer to="/about">
-                            <Nav.Link href="#about">About</Nav.Link>
-                        </LinkContainer>
-
-                        <LinkContainer to="/cv">
-                            <Nav.Link href="#cv">CV</Nav.Link>
-                        </LinkContainer>
-
-                        <div >
-                            <ToggleButton />
-                        </div>
-
-                    </Nav>
-
-                </Container>
-            </Navbar>
-        </>
-
-    )
-}
- */

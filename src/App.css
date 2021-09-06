@@ -36,21 +36,6 @@ section{
   scroll-snap-align: start;
 
 }
-/* 
-.home{
-background-color: orange;
-}
-.about{
-background-color: orange;
-}
-.Cv{
-background-color: orange;
-}
-.Projects{
-background-color: orange;
-}
- */
-
 
 .home, .about, .Cv, .Projects{
   background-color: orange;
