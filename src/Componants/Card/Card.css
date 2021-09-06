@@ -1,0 +1,35 @@
+.cusCard{
+    display: flex;
+    height: 55%;
+    width: 100%;
+  
+}
+.cardCompImg {
+    width: 8em;
+}
+.cardCompBody{
+    width: 100%;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+    .cusCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardCompImg {
+        width: 4em;
+    }
+
+    .cardCompBody{
+        width: 25%;
+    } 
+
+    }

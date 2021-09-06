@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+body{
+  height: 100vh;
+  color: white;
+  overflow-y: auto;
+
+}
+
+.holder{
+  height: 100%;
+  width: 100%;
+  /* overflow-y: scroll; 
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory; */
+  
+  
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  
+  scroll-snap-type: y mandatory;
+ 
+  /* Scroll Snap */
+  scroll-snap-align: start;
+
+}
+/* 
+.home{
+background-color: orange;
+}
+.about{
+background-color: orange;
+}
+.Cv{
+background-color: orange;
+}
+.Projects{
+background-color: orange;
+}
+ */
+
+
+.home, .about, .Cv, .Projects{
+  background-color: orange;
+  }
+
+.home.active, .about.active,.Cv.active,.Projects.active{
+  background-color: rgb(61, 61, 61);
+  }
+ 
