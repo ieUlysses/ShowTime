@@ -37,11 +37,12 @@ section{
 
 }
 
+/* rules for light */
 .home, .about, .Cv, .Projects{
   background-color: orange;
-  }
+}
 
+/* rules for dark */
 .home.active, .about.active,.Cv.active,.Projects.active{
   background-color: rgb(61, 61, 61);
-  }
- 
+}

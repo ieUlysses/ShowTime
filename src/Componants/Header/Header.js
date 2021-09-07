@@ -13,6 +13,7 @@ export default function () {
 
     const [context, setContext] = useContext(Context);
 
+    //using built in bs themes/ cols
     let bg = ""
     let tCol = ""
     let nCol = ""
@@ -29,7 +30,6 @@ export default function () {
     return (
 
         <>
-
             <Navbar bg={bg} expand="lg">
                 <Container>
                     <Navbar.Brand href="#home" className={tCol}>James x Jomigo</Navbar.Brand>

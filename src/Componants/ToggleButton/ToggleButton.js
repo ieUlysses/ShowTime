@@ -7,7 +7,9 @@ import { Context } from "../../Context/Context";
 
 // Icons
 import { NightsStay, WbSunny } from "@material-ui/icons";
-import { IconButton } from "@chakra-ui/button";
+import { IconButton } from "@material-ui/core";
+
+import { yellow, deepOrange } from "@material-ui/core/colors";
 
 
 export default function () {
@@ -22,22 +24,18 @@ export default function () {
 
     let color = null
     if (context === "") {
-        color = "yellow"
+        color = { yellow }
         icon = <WbSunny />
     } else {
-        color = "orange"
+        color = { deepOrange }
         icon = <NightsStay />
     }
 
     return (
         <div>
-            <IconButton
-                isRound="true"
-                icon={icon}
-                onClick={toggleContext}
-                size="lg"
-                colorScheme={color}
-            >
+
+            <IconButton onClick={toggleContext}>
+                {icon}
             </IconButton>
         </div>
     );
